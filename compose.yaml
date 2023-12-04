@@ -97,8 +97,8 @@ services:
       - validator_client
       - --debug-level=info
       - --testnet-dir=/el-cl-genesis-data/custom_config_data
-      - --validators-dir=/validator-keys/
-      - --secrets-dir=/validator-keys/secrets
+      - --validators-dir=/validator_keys/
+      - --secrets-dir=/validator_keys/secrets
       - --init-slashing-protection
       - --http
       - --unencrypted-http-transport
@@ -112,7 +112,7 @@ services:
       - --metrics-port=5064
     volumes:
       - ./el-cl-genesis-data:/el-cl-genesis-data
-      - ./validator-keys:/validator-keys
+      - ./validator_keys:/validator_keys
     ports:
       - "8142:5042"
       - "8164:5064"
