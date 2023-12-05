@@ -79,6 +79,7 @@ services:
       - --reset-payload-statuses
       - --disable-peer-scoring
       - --gui
+      - --validator-monitor-auto
     volumes:
       - ./consensus-data:/consensus-data 
       - ./el-cl-genesis-data:/el-cl-genesis-data
