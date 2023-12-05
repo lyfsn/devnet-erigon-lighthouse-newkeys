@@ -106,6 +106,7 @@ services:
       - --unencrypted-http-transport
       - --http-address=0.0.0.0
       - --http-port=5042
+      - --http-allow-origin=*
       - --beacon-nodes=http://beacon:4000
       - --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776
       - --metrics
