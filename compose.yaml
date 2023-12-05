@@ -114,7 +114,6 @@ services:
       - --metrics-address=0.0.0.0
       - --metrics-allow-origin=*
       - --metrics-port=5064
-      - --validator-monitor-auto
     volumes:
       - ./el-cl-genesis-data:/el-cl-genesis-data
       - ./validator_keys:/validator_keys
