@@ -77,6 +77,7 @@ services:
       - --reconstruct-historic-states
       - --reset-payload-statuses
       - --disable-peer-scoring
+      - --gui
     volumes:
       - ./consensus-data:/consensus-data 
       - ./el-cl-genesis-data:/el-cl-genesis-data
