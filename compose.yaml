@@ -84,6 +84,7 @@ services:
       - --gui
       - --validator-monitor-auto
       - --proposer-reorg-epochs-since-finalization=2000000
+      - --proposer-reorg-cutoff=10000000000
     volumes:
       - ./consensus-data:/consensus-data 
       - ./el-cl-genesis-data:/el-cl-genesis-data
