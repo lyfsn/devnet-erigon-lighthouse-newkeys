@@ -80,7 +80,6 @@ services:
       - --genesis-backfill
       - --reconstruct-historic-states
       - --reset-payload-statuses
-      - --disable-peer-scoring
       - --gui
       - --validator-monitor-auto
       - --proposer-reorg-epochs-since-finalization=2000000
